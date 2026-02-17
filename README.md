@@ -2,28 +2,6 @@
 
 Python project that simulates a 3-axis rigid body (spacecraft/UAV style) and stabilizes it with a PID controller.
 
-## Table of Contents
-
-1. [What This Project Is](#what-this-project-is)
-2. [Who This Is For](#who-this-is-for)
-3. [What You Can Do Right Now](#what-you-can-do-right-now)
-4. [Project Files](#project-files)
-5. [Quick Start (Copy/Paste)](#quick-start-copypaste)
-6. [Installation and Requirements](#installation-and-requirements)
-7. [How to Run (All Ways)](#how-to-run-all-ways)
-8. [Interactive Prompt Mode](#interactive-prompt-mode)
-9. [Command-Line Inputs Explained](#command-line-inputs-explained)
-10. [Examples from Simple to Advanced](#examples-from-simple-to-advanced)
-11. [How the Physics Model Works](#how-the-physics-model-works)
-12. [How the PID Controller Works](#how-the-pid-controller-works)
-13. [How to Tune PID Gains](#how-to-tune-pid-gains)
-14. [Reading the Output](#reading-the-output)
-15. [Plot and Animation Guide](#plot-and-animation-guide)
-16. [Troubleshooting](#troubleshooting)
-17. [How to Put This on GitHub](#how-to-put-this-on-github)
-18. [Ideas for Extensions](#ideas-for-extensions)
-19. [Notes](#notes)
-
 ## What This Project Is
 
 This script simulates rotational motion in 3D and tries to point the body toward a desired orientation.
