@@ -2,6 +2,24 @@
 
 Python project that simulates a 3-axis rigid body (spacecraft/UAV style) and stabilizes it with a PID controller.
 
+## Table of Contents
+
+1. [What This Project Is](#what-this-project-is)
+2. [What You Can Do Right Now](#what-you-can-do-right-now)
+3. [Project Files](#project-files)
+4. [Installation and Requirements](#installation-and-requirements)
+5. [Interactive Prompt Mode](#interactive-prompt-mode)
+6. [Command-Line Inputs Explained](#command-line-inputs-explained)
+7. [Examples from Simple to Advanced](#examples-from-simple-to-advanced)
+8. [How the Physics Model Works](#how-the-physics-model-works)
+9. [How the PID Controller Works](#how-the-pid-controller-works)
+10. [How to Tune PID Gains](#how-to-tune-pid-gains)
+11. [Reading the Output](#reading-the-output)
+12. [Plot and Animation Guide](#plot-and-animation-guide)
+13. [Troubleshooting](#troubleshooting)
+14. [Ideas for Extensions](#ideas-for-extensions)
+15. [Notes](#notes)
+
 ## What This Project Is
 
 This script simulates rotational motion in 3D and tries to point the body toward a desired orientation.
@@ -27,14 +45,6 @@ Main script:
 
 - `controller_3axis.py`: simulation, PID controller, CLI, plotting, animation
 - `README.md`: full usage and theory guide
-
-## Quick Start (Copy/Paste)
-
-```bash
-cd "/Users/suraa/Downloads/#1/Altitude Control Simulator"
-python3 -m pip install numpy matplotlib
-python3 controller_3axis.py
-```
 
 ## Installation and Requirements
 
